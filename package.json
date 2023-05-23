@@ -1,0 +1,56 @@
+{
+  "dependencies": {
+    "@types/socket.io": "^2.1.10",
+    "accesscontrol": "^2.2.1",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "chart.js": "^3.9.1",
+    "cloudinary": "^1.30.0",
+    "config": "^3.3.7",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "express-validator": "^6.14.2",
+    "fast-csv": "^4.3.6",
+    "helmet": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongodb": "^4.8.1",
+    "mongoose": "^6.5.0",
+    "multer": "^1.4.5-lts.1",
+    "node": "^18.7.0",
+    "node-cron": "^3.0.1",
+    "nodemailer": "^6.7.7",
+    "nodemon": "^2.0.20",
+    "pm2": "^5.2.0",
+    "receiptline": "^1.11.1",
+    "sharp": "^0.30.7",
+    "socket.io": "^4.5.1"
+  },
+  "name": "point-of-sale-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Malik-shahzadAli/Point-of-sale-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Malik-shahzadAli/Point-of-sale-api/issues"
+  },
+  "homepage": "https://github.com/Malik-shahzadAli/Point-of-sale-api#readme",
+  "description": ""
+}

@@ -1,0 +1,15 @@
+your gitignore file should looks like this
+/dist
+/tmp
+/node_modules
+./node_modules
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+package-lock.json
+/.angular/*
+node_modules/.package-lock.json
+./package-lock.json

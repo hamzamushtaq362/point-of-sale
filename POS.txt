@@ -1,0 +1,28 @@
+>
+Register business to sell their products.
+(e.g. fiverr)
+
+>
+(Problem)=>Business owners have to count invenory by hand (to be sure).
+And then communicate with online inventory manager and physical inventory manager => (Still never be 100% sure).
+
+Physical and online sales =>(Communicates with each other in realtime) 
+=>(can it manages both)
+=>(Check how my online sales are going and how my physical sales are going)
+
+>
+It depends on type of Business you are running.
+(Mobile Shop, Fruit Shop)
+
+>
+Inventory management
+
+>
+Process payments
+
+>
+Multiple physical locations.
+Multiple channels (Online store, social platforms).
+
+>
+Manage and boost your business.

@@ -1,0 +1,36 @@
+const CryptoJS = require("crypto-js");
+const key = require("../config");
+const roleModel = require("../models/role");
+exports.Middleware = async function (req, res, next) {
+  try {
+    let cookies = req.headers.cookies;
+    req.store = req.headers.store;
+
+    console.log("Cookies", cookies);
+    console.log("store in socket", req.store);
+
+    // const bytes = CryptoJS.AES.decrypt(cookies, key.passphrase);
+    // console.log("bytes", bytes);
+
+    // cookies = JSON.parse(bytes.toString(CryptoJS.enc.Utf8));
+    // console.log("parse cookies",cookies);
+
+    // Custom access code
+    let permission = await roleModel
+    .findOne({ _id: cookies })
+    .populate({ path: "permission_id" 
+    });
+    console.log("middleware check");
+    // console.log(permission.permission_id.productAdd);
+
+    req.access = cookies;
+    
+    req.access = permission.permission_id;
+    req.role = req.headers.role;
+    next();
+  } catch (error) {
+    return res.status(401).json({
+      message: "You are not active",
+    });
+  }
+};
